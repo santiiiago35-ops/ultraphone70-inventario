@@ -14,5 +14,8 @@ public class MainConsola {
 
         // 3. Probar actualización (Update)
         productoDao.actualizarStockProducto("356789012345699", 12);
+
+        // 4. Probar eliminación (Delete)
+        productoDao.eliminarProducto("356789012345699");
     }
 }
